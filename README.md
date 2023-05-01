@@ -1,31 +1,47 @@
-# Touring Vue Router Example App
+# real-world-vue
 
-This is the Vue 3 application we build step by step in the Touring Vue Router course on Vue Mastery. It's starting code is based on the final code from the Real World Vue 3 course.
+Created with npx create-vue real-world-vue
 
-## Project setup
+TypeScript no
+jsx no
+Router yes
+Pinia yes
+Vitest no
+Cypress no
+ESLint yes
+Prettier yes
 
-```
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and Hot-Reload for Development
 
-```
-npm run serve
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Compile and Minify for Production
 
-```
+```sh
 npm run build
 ```
 
-### Lints and fixes files
+### Lint with [ESLint](https://eslint.org/)
 
-```
+```sh
 npm run lint
 ```
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+To get the mock database results, using myjson server
+https://my-json-server.typicode.com/AdlerMutig/real_world_vue3/events
